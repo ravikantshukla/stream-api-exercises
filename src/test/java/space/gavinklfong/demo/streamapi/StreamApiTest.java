@@ -103,7 +103,7 @@ public class StreamApiTest {
 		long endTime = System.currentTimeMillis();
 
 		log.info(String.format("exercise 2 - execution time: %1$d ms", (endTime - startTime)));
-		result.forEach(o -> log.info(o.toString()));
+		result.forEach(o -> 	log.info(o.toString()));
 
 	}
 
